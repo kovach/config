@@ -1,0 +1,7 @@
+escape ^\\
+startup_message off
+altscreen on
+term screen-256color
+hardstatus alwayslastline
+caption always
+caption string '%{= r}%H%{g} %{g}%-w%{b}%n %t%{g}%+w'
