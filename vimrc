@@ -2,6 +2,7 @@ set nocompatible
 set showcmd   " display incomplete commands
 syntax on
 set autoindent
+set hidden
 set expandtab
 set ignorecase
 set tabstop=2
