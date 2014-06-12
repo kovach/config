@@ -1,0 +1,39 @@
+set editor="emacs"
+set ac=false
+nm <Backspace> H
+nm < gg
+nm > G
+nm v F
+nm J <C-p>
+nm K <C-n>
+nm <C-0> @0
+
+nm <C-2> @2
+nm <C-3> @3
+nm <C-4> @4
+nm <C-5> @5
+
+nm <C-7> @7
+nm <C-8> @8
+nm <C-9> @9
+
+nm <C-1> <C-6>
+
+cmap <C-f> <Right>
+cmap <C-b> <Left>
+cmap <A-b> <C-Left>
+cmap <A-f> <C-Right>
+
+imap <C-f> <Right>
+imap <C-b> <Left>
+imap <A-b> <C-Left>
+imap <A-f> <C-Right>
+
+nm U D
+nm I d
+
+nm q J
+nm w K
+nm a :tabmove -1<Return>
+nm s :tabmove +1<Return>
+nm <C-e> <C-u>
