@@ -16,6 +16,10 @@ nnoremap <F2> :set background=dark<CR>
 nnoremap <F3> :set background=light<CR>
 nnoremap <C-l> :redraw<CR>:buffers<CR>:buffer<Space>
 nnoremap <esc><esc> :noh<return>
+nnoremap <esc>d :b #<bar>bd #<CR>
+
+imap <C-f> function() {<CR>}<esc>k$hhi
+imap <C-l> console.log();<esc>hi
 
 call pathogen#infect()
 colorscheme solarized
