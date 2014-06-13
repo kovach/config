@@ -1,13 +1,14 @@
 set nocompatible
 set showcmd   " display incomplete commands
-syntax on
 set autoindent
 set hidden
 set expandtab
 set ignorecase
+set wildmode=list:longest,full
 set tabstop=2
 set shiftwidth=2
-set wildmode=list:longest,full
+set hlsearch
+syntax on
 
 filetype plugin indent on
 
