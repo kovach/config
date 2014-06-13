@@ -9,6 +9,7 @@ set tabstop=2
 set shiftwidth=2
 set hlsearch
 syntax on
+set t_Co=16
 
 filetype plugin indent on
 
