@@ -1,0 +1,17 @@
+[alias]
+  st = status
+  b = branch
+  l = log --oneline
+  lh = log --oneline -n 10
+  vd = difftool --no-prompt
+[color]
+  status = auto
+  diff = auto
+[diff]
+  tool = vimdiff
+  prompt = NO
+[user]
+	name = Scott Kovach
+	email = dskovach@gmail.com
+[push]
+	default = simple
