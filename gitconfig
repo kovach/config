@@ -15,3 +15,5 @@
 	email = dskovach@gmail.com
 [push]
 	default = simple
+[core]
+	editor = vim
