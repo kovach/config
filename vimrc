@@ -3,6 +3,7 @@ set showcmd   " display incomplete commands
 set autoindent
 set hidden
 set expandtab
+set ignorecase
 set smartcase
 set wildmode=list:longest,full
 set tabstop=2
