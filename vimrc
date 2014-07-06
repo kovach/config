@@ -22,6 +22,10 @@ nnoremap <esc>d :b #<bar>bd #<CR>
 
 imap <C-f> function() {<CR>}<esc>k$hhi
 imap <C-l> console.log();<esc>hi
+nnoremap <C-h> :! browserify main.js -o bundle.js<CR><CR>
+
+nnoremap <C-k> :CtrlPBuffer<CR>
+let g:ctrlp_custom_ignore='node_modules/*'
 
 call pathogen#infect()
 colorscheme solarized
