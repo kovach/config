@@ -10,6 +10,7 @@ set wildmode=list:longest,full
 set tabstop=2
 set shiftwidth=2
 set hlsearch
+set ruler
 syntax on
 set t_Co=16
 
@@ -30,4 +31,4 @@ let g:ctrlp_custom_ignore='node_modules/*'
 
 call pathogen#infect()
 colorscheme solarized
-set background=dark
+set background=light
