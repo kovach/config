@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/scott/swiftnav/ecstatic/.cabal-sandbox'
+let g:netrw_dirhist_2='/Users/scott/swiftnav/ecstatic/.cabal-sandbox/packages'
+let g:netrw_dirhist_3='/Users/scott/swiftnav/ecstatic/.cabal-sandbox'
+let g:netrw_dirhist_4='/Users/scott/.oh-my-zsh'
+let g:netrw_dirhist_5='/Users/scott/exp/wick/.wick/files'
+let g:netrw_dirhist_6='/Users/scott/swiftnav/piksi_firmware/.git/refs/heads'
