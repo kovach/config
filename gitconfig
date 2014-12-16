@@ -1,8 +1,10 @@
 [alias]
   st = status
+  s = status
   b = branch
+  d = diff
   l = log --oneline
-  lh = log --oneline -n 10
+  lh = !git --no-pager log --oneline -n 10
   vd = difftool --no-prompt
 [color]
   status = auto
@@ -11,9 +13,10 @@
   tool = vimdiff
   prompt = NO
 [user]
-	name = Scott Kovach
-	email = dskovach@gmail.com
+  name = Scott Kovach
+  email = dskovach@gmail.com
 [push]
-	default = simple
+  default = simple
 [core]
-	editor = vim
+  editor = vim
+  excludesfile = /Users/scott/.gitignore_global
