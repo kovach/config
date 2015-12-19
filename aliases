@@ -1,0 +1,9 @@
+alias ls="ls -F --color=auto"
+alias cal3="cal -3"
+alias zconf="vim ~/.zshrc_local && source ~/.zshrc_local"
+alias gr="git remote -v && g b -vv"
+alias lrt="ls -lrt"
+alias :r="cabal repl"
+alias m="mplayer"
+
+alias c="*(/om[1])"
