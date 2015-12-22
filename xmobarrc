@@ -1,0 +1,12 @@
+Config
+  { bgColor = "back"
+  , fgColor = "#666666"
+  , template = "%StdinReader%}%dat% <fc=white>%batt%</fc>{%sclip% | %xbacklight%"
+  , font = "xft:DejaVu Sans Mono:pixelsize=18"
+  , commands = [ Run Com "xbacklight" [] "" 100
+               , Run Com "sclip" ["-o"] "" 100
+               , Run Com "batt" [] "" 600
+               , Run Com "dat" [] "" 600
+               , Run StdinReader
+               ]
+  }
